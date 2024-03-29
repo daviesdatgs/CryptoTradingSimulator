@@ -1,7 +1,7 @@
 import axios from "axios";
 import authHeader from "./auth-header";
 
-const API_URL = "http://localhost:8080/user/";
+const API_URL = "http://91.108.110.222:3000/user/";
 
 class UserService {
   getUserBalance(username) {

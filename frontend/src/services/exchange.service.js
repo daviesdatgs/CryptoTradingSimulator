@@ -1,6 +1,6 @@
 import Axios from "axios";
 
-const API_URL = "http://localhost:8080/exchange";
+const API_URL = "http://91.108.110.222:3000/exchange";
 
 class ExchangeService {
   getCurrentPrice(coin) {
